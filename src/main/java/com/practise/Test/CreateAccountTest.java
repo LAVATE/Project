@@ -12,13 +12,14 @@ import com.practise.utilities.TestUtil;
 
 
 public class CreateAccountTest extends TestBase {
-	
+
 	public CreateAccountTest() throws Exception {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
 	@Test(dataProviderClass=TestUtil.class, dataProvider="dp")
-	public void createAccount(Hashtable<String, String> data) throws Exception
+	public void createAccount(Hashtable<String,String> data) throws Exception
 	{
 	ZohoAppPage zohoAppPage=new ZohoAppPage();
 	zohoAppPage.goToCRM();
