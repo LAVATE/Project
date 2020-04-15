@@ -24,7 +24,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.practise.utilities.TestUtil;
-
+//This is base class
 public class Page {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
